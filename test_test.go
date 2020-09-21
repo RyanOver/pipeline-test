@@ -16,7 +16,7 @@ func TestTerraform(t *testing.T){
 	instanceName := fmt.Sprintf("gcp-terratest-test-%s", strings.ToLower(random.UniqueId()))
 
 	terraformOptions := &terraform.Options{
-		TerraformDir: "../config/",
+		TerraformDir: "../example2/",
 
 		Vars: map[string]interface{}{
 			"instance_name": instanceName,
