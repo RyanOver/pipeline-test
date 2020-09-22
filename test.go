@@ -9,7 +9,7 @@ import (
 	"github.com/gruntwork-io/terratest/modules/terraform"
 )
 
-func TestTerraform(t *testing.T){
+func TestTest(t *testing.T){
 	t.Parallel()
 
 	const projectId string  = "ryan-cicd"
